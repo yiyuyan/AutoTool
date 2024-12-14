@@ -1,0 +1,12 @@
+enable = true
+enable_sword = true
+mouse_down_only = true
+#When the enable_sword enabled,these configurations will take effects
+block_flights = true
+block_animals = false
+block_monsters = false
+block_players = false
+block_sleeping = true
+block_team = true
+living_only = false
+
