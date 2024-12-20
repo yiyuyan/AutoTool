@@ -67,7 +67,7 @@ public class AutoTool
     }
 
     @SubscribeEvent
-    public void tick(PlayerTickEvent event){
+    public void tick(PlayerTickEvent.Pre event){
         Minecraft MC = Minecraft.getInstance();
         if(event.getEntity()!=MC.player) return;
         if(Config.ENABLED.get()){
